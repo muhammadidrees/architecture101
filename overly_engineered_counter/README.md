@@ -1,16 +1,15 @@
-# overly_engineered_counter
+# Overly Engineered Counter
 
-A new Flutter project.
+The default Flutter counter app, created using Layered Architecture.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+To run this project, you will need to have the Flutter SDK installed. You can find installation instructions [here](https://flutter.dev/docs/get-started/install).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Once you have the Flutter SDK installed, you can run the project using the following command:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter run
+```
