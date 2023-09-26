@@ -9,7 +9,7 @@ class CounterInMemoryClient {
     return counter;
   }
 
-  Future<void> incrementCounter() async {
+  void incrementCounter() async {
     final previousCounterValue = counter.value ?? 0;
     counter = CounterEntity(value: previousCounterValue + 1);
   }

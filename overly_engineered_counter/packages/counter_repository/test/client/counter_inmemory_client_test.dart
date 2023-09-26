@@ -19,16 +19,16 @@ void main() {
     });
 
     group('incrementCounter', () {
-      test('increments counter by 1', () async {
+      test('increments counter by 1', () {
         final client = CounterInMemoryClient();
-        await client.incrementCounter();
+        client.incrementCounter();
         expect(client.counter.value, 1);
       });
 
-      test('increments counter by 2', () async {
+      test('increments counter by 2', () {
         final client = CounterInMemoryClient();
-        await client.incrementCounter();
-        await client.incrementCounter();
+        client.incrementCounter();
+        client.incrementCounter();
         expect(client.counter.value, 2);
       });
     });
